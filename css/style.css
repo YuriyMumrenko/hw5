@@ -39,8 +39,9 @@ a:hover {
 	color: #213a4d;
 	float: left;
 	height: 27px;
-	padding: 10px 0 0 5px;
+	
 	width: auto;
+	margin: 15px 0 0 5px;
 
 }
 .phones img {
@@ -48,8 +49,8 @@ a:hover {
 
 }
 .phones span {
-	font: 18px Arial,Helvetica,sans-serif;
-	margin: 5px 0 0 5px;
+	font:  19px Arial,Helvetica,sans-serif;
+	
 }
 
 form input, textarea {
@@ -61,7 +62,7 @@ form input, textarea {
 .login-form {
 	float: left;
 	height: 27px;
-	margin: 4px 0 0 10px;
+	margin: 11px 0 9px 15px;
 	width: 495px;
 	background:linear-gradient(to top, #0D3458, #1E6383);
 	border-radius: 3px;
@@ -80,7 +81,7 @@ form input, textarea {
 .login-center {
 	padding: 5px 0 0 0px;
 	margin-left: 12px;
-	/*width: 488px;*/
+	
 	width: 468px;
 }
 
@@ -88,16 +89,18 @@ form input, textarea {
 	float: left;
 	margin: 1px -4px 0 5px;
 	width: 282px;
+
 }
 .login-center form input {
 	border: 1px solid #97a2a6;
 	color: #51676f;
 	float: left;
-	font: 12px Arial,Helvetica,sans-serif;
+	font: bold 11px Arial,Helvetica,sans-serif;
 	height: 14px;
 	margin: 0 4px 0 0;
 	padding: 0 0 0 2px;
 	width: 113px;
+	
 
 
 }
@@ -105,13 +108,18 @@ form input, textarea {
 	display: inline-block;
 	color: #fff;
 
-	font: 11px Arial,Helvetica,sans-serif;
-	margin: 1px 0 0;
+	font: bold 11px Arial,Helvetica,sans-serif;
+	margin: 1px 0 0 -7px;
+	
 
 }
 .login-center span {
 	color: #fff;
+	
 	font-size: 11px;
+	margin: 0 3px 0 -4px;
+	padding-right: 5px;
+
 }
 
 
@@ -126,7 +134,7 @@ form input, textarea {
 	height: 14px;
 	text-align: center;
 	width: 35px;
-	margin-top: 3px; 
+	margin: 2px 0 0 -3px;
 	position: absolute;
 
 }
@@ -135,9 +143,9 @@ form input, textarea {
 .mini-menu {
 	float: right;
 	height: 15px;
-	padding: 3px 8px 5px 1px;
-	margin: 5px 8px 0 0 ;
-	width: 78px;
+	padding: 3px 8px 2px 0px;
+	margin: 13px 8px 2px 0 ;
+	width: 68px;
 	background-color: #FFFFFF;
 	border-radius: 15px;
 	border: 1px solid #C2C8CB;
@@ -145,14 +153,14 @@ form input, textarea {
 }
 
 .mini-menu img {
-	margin: 0 -1px 0 10px;
+	margin: 0 -3px 4px 7px;
 }
 
 /*-----------центральное фото--------------*/
 .center-image {
-	background: rgba(0, 0, 0, 0) url("../img/photo.png") no-repeat scroll 0 0;
+	background: url("../img/photo.png") no-repeat scroll 0 0;
 	height: 235px;
-	width: 910px;
+	width: 910px; 
 	clear: both;
 }
 
@@ -160,14 +168,13 @@ form input, textarea {
 
 .main-menu {
 	height: 41px;
-	margin: 10px 0 0 -1px;
+	margin: 6px 0 0 -1px;
 	width: 915px;
 
 	position: relative;
 	background:linear-gradient(to top, #010101, #464D54);
 	border-radius: 3px;
 	box-shadow: 3px 3px 7px #020202;
-
 
 }
 
@@ -195,7 +202,9 @@ form input, textarea {
 .main-menu ul li a {
 	color: #b1bcc0;
 	display: block;
-	padding: 4px 20px;
+	margin: 0 7px 0 19px;
+	padding-top: 4px;
+	padding-right: 5px;
 	text-align: center;
 	width: 100%;
 }
@@ -204,7 +213,9 @@ form input, textarea {
 	text-decoration: none;
 	background:linear-gradient(to top, #0C3357, #1D6081);
 	border-radius: 30px;
-	height: 20px;
+	height: 25px;
+
+
 	/*width: 75%;*/
 
 }
@@ -213,13 +224,13 @@ form input, textarea {
 	color: #fff;
 	position: absolute;
 	height: 17px;
-	margin: 12px 0 0 700px;
+	margin: 12px 0 0 683px;
 	width: 250px;
 }
 .total span {
 	color: #899296;
 	font: 12px/8px Arial,Helvetica,sans-serif;
-	left: 0;
+	margin-right: 5px;
 	position: relative;
 	top: -2px;
 }
@@ -231,10 +242,10 @@ form input, textarea {
 /*-----------картинка вместо поля для поиска шин и дисков-------------*/
 
 .find-image {
-	background: rgba(0, 0, 0, 0) url("../img/find.png") no-repeat;
+	background: url("../img/find.png") no-repeat;
 	height: 138px;
 	width: 910px;
-	margin: 12px 0 12px 0;
+	margin: 6px 0 12px 2px;
 }
 
 
@@ -242,7 +253,7 @@ form input, textarea {
 
 .middle {
 	height: auto;
-	margin: 5px 0 0;
+	margin: 1px 0 0;
 	width: 100%;
 
 
@@ -269,12 +280,19 @@ form input, textarea {
 }
 .center-content {
 
-	background: url("../img/tovar.png");
+	background:linear-gradient(to top, #93A7B0, #E3E6E7);
+	
 	float: left;
 	height: 625px;
-	margin: 0 3px 30px 3px;
+	margin: 0 2px 30px 2px;
 	width: 526px;
 
+}
+.center-content:after {
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;
 }
 .right-side {
 	float: left;
@@ -325,7 +343,7 @@ form input, textarea {
 .side-menu-title {
 	background: rgba(0, 0, 0, 0) url("../img/katalog.png") no-repeat;
 	color: #114165;
-	font: 12px Verdana,Arial;
+	font: 12px "Lucida Sans Unicode",Verdana,Arial;
 	height: 25px;
 	padding: 6px 0 0 30px;
 	width: 156px;
@@ -343,7 +361,7 @@ form input, textarea {
 .side-block-title {
 	color: #114165;
 	display: inline-block;
-	font: 12px Verdana,Arial;
+	font: 12px "Lucida Sans Unicode",Verdana,Arial;
 	height: 21px;
 	padding: 3px 0 7px 32px;
 	width: 118px;
@@ -355,7 +373,7 @@ form input, textarea {
 
 	color: #465961;
 	display: block;
-	font: 12px Verdana,Arial;
+	font: 12px "Lucida Sans Unicode",Verdana,Arial;
 	height: 14px;
 	margin: 10px 0 0 30px;
 	padding: 1px 0 0 10px;
@@ -367,6 +385,58 @@ form input, textarea {
 	font-size: 12px;
 	font-weight: bold;
 }
+
+/*--------------cредняя колонка--------------------------------*/
+
+
+.tires{
+
+	float: left;
+	height: 180px;
+	margin: 9px 17px;
+	text-align: center;
+	width: 140px;
+	display: block;
+	
+
+
+}
+
+.company{
+	color: #206988;
+	font: bold 14px "Lucida Sans Unicode",Verdana,Arial;
+	margin: 10px 0 -5px 5px;
+
+}
+.model{
+	color: #1f2528;
+	
+	font:  13px "Lucida Sans Unicode",Verdana,Arial;
+	padding-top: 0px;
+
+	padding-left: 10px;
+	margin-bottom: -2px;
+}
+
+
+.image{
+	background: #fff;
+	border-radius: 10px;
+	width: 138px;
+	height: 128px;
+	border: 2px solid #C2C9CB;
+	margin-top: 4px;
+	margin-left: 3px;
+	
+
+}
+.price{
+	color: #114165;
+	font: italic bold 16px "Lucida Sans Unicode",Verdana,Arial;
+	text-align: center;
+	margin-top: 3px;
+}
+
 
 /*---------------правая колонка----------------*/
 
@@ -388,7 +458,7 @@ form input, textarea {
 .checkbox-menu-item {
 	color: #465961;
 	display: block;
-	font: 12px Verdana,Arial;
+	font: 12px "Lucida Sans Unicode",Verdana,Arial;
 	height: 15px;
 	margin: 6px 0 5px;
 	padding: 0 0 0 30px;
